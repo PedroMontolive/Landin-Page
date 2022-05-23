@@ -1,0 +1,26 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 32px;
+    }
+    #block{
+        flex-direction: column;
+        width: 50%;
+    }
+    button{
+        align-self: center;
+        width: 70%;
+    }
+    img{
+        display: none;
+    }
+    ul{
+        flex-direction: row;
+        width: 50%;
+    }
+}
